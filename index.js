@@ -19,7 +19,7 @@ function requestExpression(){
         }
         try {
             console.log(`Answer: ${Calculator.getValue(inputText, {
-                "^":{ //Добавляем новые операция, не внося изменения исходного кода модуля
+                "^":{ //Добавляем новые операция, не внося изменения в исходный код модуля
                     priority: 2,
                     result: (a,b)=>a**b
                 }
